@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather forecast</string>
+    <string name="title_activity_forecat_list">ForecatList</string>
+    <string name="action_settings">Settings</string>
+    <string name="wind">Wind</string>
+    <string name="rain">Rain</string>
+    <string name="clouds">Clouds</string>
+    <string name="temperature">Temperature</string>
+    <string name="addCity">Add</string>
+    <string name="weatherServiceUri">http://api.openwheathermap.org/data/2.5/</string>
+    <string name="temp">Temp</string>
+    <string name="temp_max">Temp max</string>
+    <string name="temp_min">Temp min</string>
+    <string name="windspeed">Wind speed</string>
+    <string name="winddeg">Wind deg</string>
+</resources>
