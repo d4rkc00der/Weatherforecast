@@ -28,8 +28,7 @@ public class ForecastListActivity extends AppCompatActivity {
 
 
         SimpleCursorAdapter dataAdapter;
-        String[] columns;
-        Weather weather;
+
         int[] to = new int[] {
                 R.id.cityName,
                 R.id.countryName,

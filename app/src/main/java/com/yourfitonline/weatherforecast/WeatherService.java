@@ -23,9 +23,6 @@ public class WeatherService extends IntentService {
 
     }
 
-
-
-
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
@@ -51,32 +48,14 @@ public class WeatherService extends IntentService {
         return super.onStartCommand(intent, flags, startId);
     }
 
-    /*
-        This service check databse, check position and check internet connection and if it exist runned Client.download()
-        with position arguments and post result into Database
-         */
-
-
 
     public boolean isInternetAvailable(){
         return true;
-    }
-
-
-
-
-
-    @Override
-    public IBinder onBind(Intent intent) {
-        // TODO: Return the communication channel to the service.
-        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     @Override
     protected void onHandleIntent(Intent intent) {
         //Log.d(LOG_TAG,"onHanleIntent");
     }
-
-
 
 }
